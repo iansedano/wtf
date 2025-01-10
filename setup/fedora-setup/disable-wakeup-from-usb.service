@@ -1,8 +1,0 @@
-[Unit]
-Description=Disable wakeup from certain devices
-
-[Service]
-ExecStart=/bin/bash -c 'echo "XHCI" > /proc/acpi/wakeup'
-
-[Install]
-WantedBy=multi-user.target
