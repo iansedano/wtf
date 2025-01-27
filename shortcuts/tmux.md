@@ -27,9 +27,10 @@ Almost all keys require the `<leader>` before it
 `0`Go to window 0. Numbers 1-9 are similar.
 `w`Show window list. The status bar lists windows, too.
 `,`Rename the current window
+`&` Kill the current window.
 
-`"`Split pane horizontally
-`%`Split pane vertically
+`"`Split pane horizontally, end up with top/bottom
+`%`Split pane vertically, end up with left/right
 `<arrows>`Move between panes
 `CTRL <arrows>` Resize panes by 1 character
 `ALT <arrows>` Resize panes by 5 characters
@@ -39,15 +40,11 @@ Almost all keys require the `<leader>` before it
 `C-o` Rotate the panes in the current window forwards.
 `C-z` Suspend the tmux client.
 `!` Break the current pane out of the window.
-`"` Split the current pane into two, top and bottom.
 `#` List all paste buffers.
 `$` Rename the current session.
-`%` Split the current pane into two, left and right.
-`&` Kill the current window.
 `'` Prompt for a window index to select.
 `(` Switch the attached client to the previous session.
 `)` Switch the attached client to the next session.
-`,` Rename the current window.
 `-` Delete the most recently copied buffer of text.
 `.` Prompt for an index to move the current window.
 `0 to 9` Select windows 0 to 9.
